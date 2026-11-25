@@ -1,0 +1,80 @@
+
+# ==========================================
+# CHRONOTUNNEL - GIT IGNORE
+# ==========================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Testing and coverage
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Streamlit cache
+.streamlit/cache/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Local database files
+*.sqlite
+*.sqlite3
+
+# Reproducible intermediate datasets
+data/interim/
+
+# Local inspection artifact
+project_structure.txt
+
+# Local backup files
+app/components/styles_backup.py
+
+
+# Empty placeholder files excluded from the repository
+reports/final_report.md
+scripts/acquire_data.py
+scripts/process_data.py
