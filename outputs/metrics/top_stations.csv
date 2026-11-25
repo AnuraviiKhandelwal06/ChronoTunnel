@@ -1,0 +1,16 @@
+station_complex_id,station_complex,borough,total_ridership,total_transfers
+611,"Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)",Manhattan,168202157.0,1457527.0
+610,"Grand Central-42 St (S,4,5,6,7)",Manhattan,115353629.0,976386.0
+607,"34 St-Herald Sq (B,D,F,M,N,Q,R,W)",Manhattan,97401047.0,1120934.0
+602,"14 St-Union Sq (L,N,Q,R,W,4,5,6)",Manhattan,86561174.0,1823930.0
+628,"Fulton St (A,C,J,Z,2,3,4,5)",Manhattan,70686291.0,228000.0
+164,"34 St-Penn Station (A,C,E)",Manhattan,68310948.0,464326.0
+614,"59 St-Columbus Circle (A,B,C,D,1)",Manhattan,63617661.0,1135038.0
+318,"34 St-Penn Station (1,2,3)",Manhattan,62794521.0,725122.0
+616,"74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)",Queens,58200078.0,5689630.0
+447,Flushing-Main St (7),Queens,57024065.0,14453256.0
+624,"Chambers St (A,C)/WTC (E)/Park Pl (2,3)/Cortlandt (R,W)",Manhattan,48199633.0,574570.0
+613,"Lexington Av (N,R,W)/59 St (4,5,6)",Manhattan,47225495.0,4361640.0
+612,"Lexington Av-53 St (E,M)/51 St (6)",Manhattan,45499724.0,416092.0
+225,"47-50 Sts-Rockefeller Ctr (B,D,F,M)",Manhattan,45466541.0,179507.0
+609,"Bryant Pk (B,D,F,M)/5 Av (7)",Manhattan,43156555.0,529026.0

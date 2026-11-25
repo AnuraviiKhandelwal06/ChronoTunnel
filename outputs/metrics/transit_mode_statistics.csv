@@ -1,0 +1,4 @@
+transit_mode,observations,unique_stations,average_ridership,median_ridership,standard_deviation,minimum_ridership,maximum_ridership
+subway,25439,425,188024.02,104397.0,282371.88,1,5141295
+tram,120,2,88957.15,84847.0,41119.09,11688,172946
+staten_island_railway,120,2,73724.27,17249.5,72964.42,3254,291539

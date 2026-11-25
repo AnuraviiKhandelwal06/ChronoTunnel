@@ -1,0 +1,61 @@
+﻿PROJECT: MetroPulse
+TITLE: Urban Mobility Intelligence Platform
+
+DATA SOURCE:
+MTA Subway Hourly Ridership 2020-2024
+https://data.ny.gov/Transportation/MTA-Subway-Hourly-Ridership-2020-2024/wujg-7c2s
+
+DATE COVERAGE:
+Monthly dataset: January 2020 - December 2024
+Hourly sample: 120 selected dates across 60 months
+Hourly sampling: One Wednesday and one Saturday per month
+
+DATASETS:
+
+1. Monthly Station-Level Dataset
+File: monthly_ridership_station_level_2020_2024.csv
+Records: 25,679
+Months: 60
+Stations: 428
+Total Ridership: 4,802,664,920
+Total Transfers: 197,901,742
+
+2. Hourly Station-Level Dataset
+File: hourly_ridership_sample_station_level_2020_2024.csv
+Records: 1,172,916
+Selected Dates: 120
+Original Records: 1,214,193
+Total Ridership: 312,730,792
+Total Transfers: 12,367,003
+
+3. Station Coordinate Reference
+File: station_coordinates.csv
+Station Complexes: 429
+Missing Coordinates: 0
+Coordinate Method: Ridership-weighted representative coordinates
+
+PROCESSING:
+- Monthly data aggregated by month and station complex.
+- Hourly data aggregated by timestamp and station complex.
+- Coordinate variants consolidated for station-hour records.
+- Representative station coordinates maintained separately.
+- Original interim datasets preserved.
+
+VALIDATION:
+- Monthly ridership and transfer totals preserved.
+- Hourly ridership and transfer totals preserved.
+- Hourly duplicate station-hour records: 0
+- Missing hourly coordinate matches: 0
+- Hourly daily files successfully processed: 120
+
+SAMPLING NOTE:
+The hourly dataset is a representative sample, not a complete
+hourly record of every day from 2020 through 2024.
+
+LIMITATIONS:
+The dataset measures ridership and transfers. It does not directly
+measure passenger occupancy, train capacity, overcrowding,
+train frequency, or complete passenger journeys.
+
+PROJECT: ChronoTunnel
+TAGLINE: Turning Transit Data into Smarter Mobility Decisions.

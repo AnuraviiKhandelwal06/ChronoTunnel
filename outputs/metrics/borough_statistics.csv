@@ -1,0 +1,6 @@
+borough,observations,unique_stations,average_ridership,median_ridership,standard_deviation,minimum_ridership,maximum_ridership
+Manhattan,7379,123,349193.2,217473.0,442809.72,1,5141295
+Queens,4740,79,155018.14,87681.0,189857.63,10,1474202
+Brooklyn,9359,156,117338.68,86453.0,110853.7,3,1188320
+Bronx,4080,68,94157.54,81529.0,65626.56,6381,632224
+Staten Island,121,2,73115.0,14914.0,72968.2,2,291539

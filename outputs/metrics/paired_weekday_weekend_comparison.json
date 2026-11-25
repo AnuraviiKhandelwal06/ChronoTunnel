@@ -1,0 +1,13 @@
+{
+    "paired_months": 60,
+    "wednesday_mean_ridership": 3208250.73,
+    "saturday_mean_ridership": 2003929.13,
+    "mean_paired_difference": 1204321.6,
+    "median_paired_difference": 1220108.5,
+    "mean_difference_ci_95_lower": 1059597.4,
+    "mean_difference_ci_95_upper": 1349045.8,
+    "wilcoxon_statistic": 0.0,
+    "p_value": 1.6295557943119345e-11,
+    "rank_biserial_correlation": 1.0,
+    "statistically_significant": true
+}

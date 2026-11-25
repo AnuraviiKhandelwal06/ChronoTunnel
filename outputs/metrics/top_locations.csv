@@ -1,0 +1,16 @@
+station_complex_id,transit_mode,station_complex,borough,latitude,longitude,total_ridership,coordinate_variants
+611,subway,"Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)",Manhattan,40.75731,-73.986761,168202157,6
+610,subway,"Grand Central-42 St (S,4,5,6,7)",Manhattan,40.751778,-73.976845,115353629,1
+607,subway,"34 St-Herald Sq (B,D,F,M,N,Q,R,W)",Manhattan,40.749718,-73.98782,97401047,2
+602,subway,"14 St-Union Sq (L,N,Q,R,W,4,5,6)",Manhattan,40.735737,-73.98995,86561174,3
+628,subway,"Fulton St (A,C,J,Z,2,3,4,5)",Manhattan,40.710373,-74.006573,70686291,8
+164,subway,"34 St-Penn Station (A,C,E)",Manhattan,40.75229,-73.99339,68310948,1
+614,subway,"59 St-Columbus Circle (A,B,C,D,1)",Manhattan,40.768295,-73.981735,63617661,2
+318,subway,"34 St-Penn Station (1,2,3)",Manhattan,40.750374,-73.99106,62794521,1
+616,subway,"74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)",Queens,40.746848,-73.891335,58200078,3
+447,subway,Flushing-Main St (7),Queens,40.7596,-73.83003,57024065,1
+624,subway,"Chambers St (A,C)/WTC (E)/Park Pl (2,3)/Cortlandt (R,W)",Manhattan,40.714108,-74.008581,48199633,4
+613,subway,"Lexington Av (N,R,W)/59 St (4,5,6)",Manhattan,40.76266,-73.967256,47225495,2
+612,subway,"Lexington Av-53 St (E,M)/51 St (6)",Manhattan,40.757553,-73.969056,45499724,2
+225,subway,"47-50 Sts-Rockefeller Ctr (B,D,F,M)",Manhattan,40.758663,-73.98133,45466541,1
+609,subway,"Bryant Pk (B,D,F,M)/5 Av (7)",Manhattan,40.754223,-73.981977,43156555,3

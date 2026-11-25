@@ -1,0 +1,2 @@
+total_records,unique_station_ids,unique_station_mode_keys,duplicate_station_mode_groups,invalid_latitude_records,invalid_longitude_records,records_with_multiple_coordinate_variants,maximum_coordinate_variants
+429,428,429,0,0,0,27,8

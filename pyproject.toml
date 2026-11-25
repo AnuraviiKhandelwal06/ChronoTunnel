@@ -1,0 +1,82 @@
+[build-system]
+requires = ["setuptools>=75.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "chronotunnel"
+version = "1.0.0"
+description = "An urban mobility intelligence platform for NYC subway ridership analytics."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+    { name = "ChronoTunnel Development Team" }
+]
+keywords = [
+    "urban-mobility",
+    "transportation-analytics",
+    "data-science",
+    "data-engineering",
+    "ridership-analysis",
+    "temporal-analytics"
+]
+
+dependencies = [
+    "pandas>=3.0",
+    "numpy>=2.0",
+    "duckdb>=2.0",
+    "plotly>=6.0",
+    "folium>=0.19",
+    "streamlit>=1.40",
+    "scipy>=1.15"
+]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=6.0",
+    "ruff>=0.9",
+    "jupyter>=1.0",
+    "ipykernel>=6.0"
+]
+
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config"
+]
+
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+src = ["src", "app", "tests"]
+
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]
+
+
+[tool.ruff.lint.per-file-ignores]
+"app/pages/*.py" = ["E402"]
+"notebooks/*.ipynb" = ["E402"]
+
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

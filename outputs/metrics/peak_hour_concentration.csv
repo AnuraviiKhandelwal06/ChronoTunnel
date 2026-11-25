@@ -1,0 +1,3 @@
+day_of_week,day_name,sampled_dates,average_daily_ridership,average_peak_period_ridership,ridership_weighted_peak_share_percent,average_daily_peak_share_percent
+3,Wednesday,60,3208250.73,1579610.35,49.24,48.31
+6,Saturday,60,2003929.13,673256.3,33.6,33.83

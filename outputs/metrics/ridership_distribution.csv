@@ -1,0 +1,2 @@
+observations,mean_ridership,median_ridership,standard_deviation,minimum_ridership,first_quartile,third_quartile,maximum_ridership,skewness
+25679,187026.94,104090.0,281295.35,1,56351.0,209056.0,5141295,5.7829

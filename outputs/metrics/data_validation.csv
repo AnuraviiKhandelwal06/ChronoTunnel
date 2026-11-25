@@ -1,0 +1,19 @@
+check,status,actual,expected
+hourly: required columns,PASS,All present,All required columns present
+monthly: required columns,PASS,All present,All required columns present
+station_coordinates: required columns,PASS,All present,All required columns present
+hourly: missing required values,PASS,0,0
+monthly: missing required values,PASS,0,0
+station_coordinates: missing required values,PASS,0,0
+hourly: negative ridership/transfers,PASS,0,0
+monthly: negative ridership/transfers,PASS,0,0
+hourly: invalid coordinates,PASS,0,0
+monthly: invalid coordinates,PASS,0,0
+station_coordinates: invalid coordinates,PASS,0,0
+hourly: duplicate analytical groups,PASS,0,0
+monthly: duplicate analytical groups,PASS,0,0
+station_coordinates: duplicate analytical groups,PASS,0,0
+hourly: missing coordinate matches,PASS,0,0
+monthly: missing coordinate matches,PASS,0,0
+hourly: distinct sampled dates,PASS,120,120
+monthly: distinct months,PASS,60,60
